@@ -1,13 +1,10 @@
-import { Footer, NavBar } from "@/components";
 import "./globals.css";
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Footer, NavBar } from "@/components";
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Car Hub",
-  description: "Discover the best cars in the world.",
+  description: "Discover world's best car showcase application",
 };
 
 export default function RootLayout({
